@@ -250,7 +250,7 @@ define(function (require, exports, module) {
 
     var PREFUI_COMMAND_ID = "preferencesui.execute";
     CommandManager.register(Strings.TITLE_PREFERENCES, PREFUI_COMMAND_ID, handlePreferencesUI);
-    var menu = Menus.getMenu(Menus.AppMenuBar.VIEW_MENU);
+    var menu = Menus.getMenu(Menus.AppMenuBar.EDIT_MENU);
     menu.addMenuDivider();
     menu.addMenuItem(PREFUI_COMMAND_ID);
 });
